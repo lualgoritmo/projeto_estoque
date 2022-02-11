@@ -1,0 +1,107 @@
+body
+{
+    margin: 0;
+}
+.container
+{
+    margin: auto;
+    max-width: 62.5em;
+}
+nav ul, nav ul li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.header
+{
+    background-color: #DDDDDD;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.header li
+{
+    display:inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+.header li a
+{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header nav 
+{
+    max-width: 62.5em;
+    margin: auto;
+}
+.header li a:hover 
+{
+    background-color: #EEE;
+}
+
+table th
+{
+    background-color: #DDDDDD;
+    padding: 5px;
+}
+table tr:hover td
+{
+    background-color: #EEE;
+}
+table td
+{
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+}
+
+#busca
+{
+    width: 100%;
+    outline: 0;
+    border: 0;
+}
+
+table a
+{
+    color: #0000FF;
+    text-decoration: none;
+}
+table a:hover
+{
+    text-decoration: underline;;
+}
+/*ESTILIZAR O FORM DO EDIT*/
+.form input[type='text'],
+.form select,
+.form textarea
+{
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+    padding: 2px;
+    border: 0;
+    border-bottom: 2px solid #DDD;
+    outline: none;
+}
+.form input[type="submit"]
+{
+    background-color: #CCCCCC;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/*ERRO DO EDIT*/
+.warning
+{
+    border: 1px solid #FF0000;
+    background-color:#FF5555;
+    padding: 10px;
+    font-size: 1em;
+    color: #000;
+    margin: 10px;
+}
